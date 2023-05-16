@@ -1,0 +1,40 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    background: #FFF3E2;
+    color: #FA9884;
+    -webkit-text-stroke: 0.5px #E74646;
+}
+button{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px #E74646;
+    background-color: #FFE5CA;
+    font-size: 16px;
+    color: #E74646;
+}
+button:hover{
+    cursor: pointer;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+p{
+    padding-top: 50px;
+    font-size: 20px;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+    filter: brightness(55%);
+}
